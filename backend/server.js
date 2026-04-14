@@ -20,19 +20,13 @@ const corsOptionsDelegate = async (req, callback) => {
     let isDomainAllowed = false;
     const origin = req.header('Origin');
     
-    // 1. Allow if no origin (e.g., Postman, curl, server-to-server)
-    if (!origin) {
-        return callback(null, { origin: true });
-    }
-
-    // 2. Always allow the main frontend platform
+    // 1. Always allow the main frontend production platform
     const mainFrontend = process.env.FRONTEND_URL || 'https://darpan360.in';
-    const localhostPattern = /^http:\/\/(localhost|127\.0\.0\.1):\d+/;
 
-    if (origin === mainFrontend || localhostPattern.test(origin)) {
+    if (origin === mainFrontend) {
         isDomainAllowed = true;
-    } else {
-        // 3. For chatbot widget routes, check specific Bot's allowedDomains
+    } else if (origin) {
+        // 2. For chatbot widget routes, check specific Bot's allowedDomains
         const chatMatch = req.originalUrl.match(/^\/api\/chat\/([a-fA-F0-9]{24})/);
         if (chatMatch) {
             const botId = chatMatch[1];
