@@ -92,9 +92,15 @@ const Landing = () => {
         </div>
       </section>
 
-      {/* Sparse Footer */}
-      <footer className="border-t border-builder-border bg-builder-900 py-8 text-center text-sm text-gray-500">
-        <p>Built with precision by React & Tailwind.</p>
+      <footer className="border-t border-builder-border bg-builder-900 py-12 flex flex-col items-center text-center text-sm text-gray-400">
+        <p className="mb-2">Built with precision for seamless AI integration.</p>
+        <p>
+          Architected and developed by{' '}
+          <a href="https://piyushratan.in" target="_blank" rel="noopener noreferrer" className="text-accent-500 hover:text-white transition-colors">
+            Piyush Ratan
+          </a>
+          — Software Developer specializing in AI applications and automation.
+        </p>
       </footer>
     </div>
   );

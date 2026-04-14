@@ -68,3 +68,15 @@ npm run dev
 ```
 
 Navigate to `http://localhost:5173/` in your browser to access the dashboard.
+
+## About the Creator
+
+**Piyush Ratan** is a software developer specializing in artificial intelligence integrations, web development, and process automation. 
+
+### Why is this Open Source?
+
+This platform is completely free and open-source. Darpan360 was originally built as an internal module tightly integrated into my primary personal project architecture. As the AI logic became more robust—specifically the fallback systems and lightweight widget sandboxing—I realized other developers could benefit from it. 
+
+I decided to branch this specific Chatbot-as-a-Service infrastructure away from my main codebase, strip out my deeply-coupled personal API dependencies, and share it as a standalone, plug-and-play solution. Feel free to fork it, break it, and build on top of it.
+
+Explore more of my work at [piyushratan.in](https://piyushratan.in).
