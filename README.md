@@ -15,7 +15,7 @@ The project owner identifies the following deployed projects:
 - [piyushratan.in](https://piyushratan.in)
 - [darpan.quzar.in](https://darpan.quzar.in)
 - [quzar.in](https://quzar.in)
-- Oilinno
+- Orlin
 
 ## License
 
