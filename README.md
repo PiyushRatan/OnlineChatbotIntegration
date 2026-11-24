@@ -8,7 +8,14 @@ Repository: https://github.com/PiyushRatan/OnlineChatbotIntegration
 
 This public repository is related to [Darpan](https://darpan.quzar.in), a more mature private SaaS version with active users. The public project provides a foundation for developers; it is not a complete representation of the private SaaS product.
 
-**Private SaaS usage:** As of 24 November 2026, Darpan's Firebase project had 5 registered authentication accounts. This count does not measure active users and may include test accounts. The project owner reports approximately 2–3 deployments across the Quzar ecosystem; this deployment estimate has not been independently verified.
+**Private SaaS usage:** The project owner reports 2–3 real users. As of 24 November 2026, Darpan's Firebase project had 5 registered authentication accounts; this account count may include test accounts and does not measure active users.
+
+The project owner identifies the following deployed projects:
+
+- [piyushratan.in](https://piyushratan.in)
+- [darpan.quzar.in](https://darpan.quzar.in)
+- [quzar.in](https://quzar.in)
+- Oilinno
 
 ## License
 
