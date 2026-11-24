@@ -1,8 +1,18 @@
 # Darpan360 AI Platform
 
-Darpan360 is an open-source chatbot platform for deploying custom AI assistants across websites. It includes a React dashboard, Firebase Authentication, Firestore persistence, dynamic AI key rotation, and an embeddable widget script.
+Darpan360 is a chatbot platform for deploying custom AI assistants across websites. This public project gives developers a foundation for creating and embedding customizable website chatbots. It includes a React dashboard, Firebase Authentication, Firestore persistence, dynamic AI key rotation, and an embeddable widget script.
 
 Repository: https://github.com/PiyushRatan/OnlineChatbotIntegration
+
+## Relationship to Darpan SaaS
+
+This public repository is related to [Darpan](https://darpan.quzar.in), a more mature private SaaS version with active users. The public project provides a foundation for developers; it is not a complete representation of the private SaaS product.
+
+**Private SaaS usage:** As of 24 November 2026, Darpan's Firebase project had 5 registered authentication accounts. This count does not measure active users and may include test accounts. The project owner reports approximately 2–3 deployments across the Quzar ecosystem; this deployment estimate has not been independently verified.
+
+## License
+
+This public project is available under the [MIT License](LICENSE).
 
 ## Architecture
 
